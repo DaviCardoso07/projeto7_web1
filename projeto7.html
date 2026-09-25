@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Projeto 7</title>
+    </head>
+    <body>
+        <header>
+            <h1>Cadastro de Usuário</h1>
+        </header>
+        <form action="/enviar_dados" method="get"> 
+            <label for="nome">Nome Completo:</label> <br>
+            <input type="text" id="nome" name="Nome"> <br><br>
+
+             <label for="email">Email:</label> <br>
+            <input type="email" id="email" name="Email"> <br><br>
+
+            <label for="senha">Senha:</label><br>
+            <input type="password" id="senha" name="Senha"><br><br>
+            
+            <label for="genero">Gênero</label><br>
+            <select id="genero" name="Genero" >
+                <option value="masc">Masculino</option>
+                <option value="fem">Feminino</option>
+            </select> <br><br>
+
+            <label>Interesses:</label> <br>
+            <input type="checkbox" id="prog" name="Prog" value="prog">Programação<br>
+            <input type="checkbox" id="design" name="Design" value="design">Design<br>
+            <input type="checkbox" id="musica" name="Musica" value="musica">Música<br> <br>
+
+            <label for="biografia">Biografia:</label> <br>
+            <textarea id="biografia" name="Biografia" rows="4" cols="40"></textarea> <br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
